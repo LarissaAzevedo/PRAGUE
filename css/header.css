@@ -5,12 +5,32 @@ header{
     position: fixed;
 }
 header .container{
-    background-color: red;
     margin: auto;
     width: 97%;
     height: 5vw;
     display: flex;
     justify-content: space-between;
-    
+}
+header .logo{
+    width: 8vw;
+    height: 100%
+}
 
+header .logo .logo_img{
+    margin-top: 1.2vw;
+    width: 7.5vw;
+}
+
+header .menu{
+    padding-top: 2vw;
+}
+header .menu a{
+    color: #fff;
+    font-size: .7vw;
+    padding-right: 2vw;
+    transition-duration: 300ms;
+}
+header .menu a:hover, header .menu a:active, header .menu a:focus{
+    color: aqua;
+    transition-duration: 300ms;
 }
