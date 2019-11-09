@@ -1,0 +1,45 @@
+.container{
+    width: 60vw;
+    margin: auto;
+}
+.container h3{
+    text-transform: uppercase;
+    padding: 2vw 0vw;
+    width: 15vw;
+    letter-spacing: .2vw;
+    font-size: .9vw;
+    font-weight: lighter;
+}
+.container h2{
+    font-size: 2.2vw;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 0px;
+}
+.container .card p{
+    padding-top: 10px;
+}
+.card img{
+    width: 19vw;
+    padding-bottom: 20px;
+    /* com esse padding consigo ver que o hover ta ativo porém errado */
+    height: 25vh;
+}
+.card img:hover{
+    /* opacity: 0.5; */
+    /* padding-bottom: 20px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+
+}
+.card a{
+    font-size: 1.2vw;
+}

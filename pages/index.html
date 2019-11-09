@@ -6,8 +6,10 @@
     <title>Prague</title>
     <link rel="icon" href="../img/favicon.png" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<!-- elemento externo que não tem importação exclusiva para css-->
-<!-- importação de cdn tem vantagem de manter a versão mais recente automaticamente -->
+    <!-- elemento externo que não tem importação exclusiva para css-->
+    <!-- importação de cdn tem vantagem de manter a versão mais recente automaticamente -->
+    <link href="../vendor/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="../css/banner.css">
     <link rel="stylesheet" href="../css/header.css">
@@ -23,23 +25,67 @@
             <div class="logo">
                 <img src="../img/logo.png" class="logo_img" alt="logo prague">
             </div>
-            <nav class="menu animated bounce">
+            <nav class="menu animated fadein">
                 <a href="#"><i class="fas fa-home"></i>HOME</a>
                 <a href="#"><i class="fas fa-file-alt"></i>PAGES</a>
                 <a href="#"><i class="fas fa-briefcase"></i>PROJECTS</a>
                 <a href="#"><i class="fas fa-briefcase"></i>PROJECTS DETAILS</a>
                 <a href="#"><i class="fas fa-cogs"></i>SERVICES</a>
-                <a href="#"><i class="fas fa-blogger"></i>BLOG</a>
+                <a href="#"><i class="fab fa-blogger"></i>BLOG</a>
             </nav>
         </div>
     </header>
-    <section id="banner">
 
+    <section id="banner" class="gradiente">
+        <div class="content">
+            <p>WE DO INTERIOR & EXTERIOR OF</p>
+            <h1> Tampere Arena Libeskind</h1>
+            <a class="btn" href="#">View project</a>
+        </div>
     </section>
 
     <section id="project">
-    </section>
+        <div class="container">
+            <h3>last projects</h3>
+            <h2>Make it with passion.</h2>
 
+            <div class="cards">
+                <div class="card">
+                    <img src="../img/project/card1.jpg" alt="imagem primeiro projeto">
+                    <a href="#">Poolscape Villa</a>
+                    <p>Aqaba, Jordan</p>
+                </div>
+                <div class="card">
+                    <img src="../img/project/card2.jpg" alt="imagem primeiro projeto">
+                    <a href="#">European Lard Station</a>
+                    <p>Strasbourg, France</p>
+                </div>
+                <div class="card">
+                    <img src="../img/project/card3.jpg" alt="imagem primeiro projeto">
+                    <a href="#">Yabroudi Villa</a>
+                    <p>Dubai, United Arab Emirates</p>
+                </div>
+                <div class="card">
+                    <img src="../img/project/card4.jpg" alt="imagem primeiro projeto">
+                    <a href="#">Cultural Complex Centre</a>
+                    <p>Muscat, Sultanate of Oman</p>
+                </div>
+                <div class="card">
+                    <img src="../img/project/card5.jpg" alt="imagem primeiro projeto">
+                    <a href="#">Dalbourne Villa</a>
+                    <p>Guangzhou, China</p>
+                </div>
+                <div class="card">
+                    <img src="../img/project/card6.jpg" alt="imagem primeiro projeto">
+                    <a href="#">Amman Rotana Hotel</a>
+                    <p>Amman, Jordan</p>
+                </div>
+            </div>
+
+            <a class="btn" href="#">Load more</a>
+        </div>
+
+    </section>
 </body>
 
 </html>
